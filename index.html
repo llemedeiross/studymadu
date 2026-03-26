@@ -20,35 +20,36 @@
     <header>
 
         <!-- Logo -->
-        </div>
-        <a href="http://shein.com">
+        </div class="header-logo">
+        <a href="#home">
             Study Madu
         </a>
         </div>
 
         <!-- Menu Desktop / PC -->
-        <nav>
-            <ul>
+        <nav class="menu-desktop">
+            <ul class="menu">
                 <li>
-                    <a href="">
-                        <span> Home </span>
+                    <!-- Cria Links -->
+                    <a href="#home" class="menu-link active">
+                    <span class="menu texto"> Home </span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span> Projetos </span>
+                    <a href="#projetos" class="menu-link">
+                        <span class="menu-texto"> Projetos </span>
                     </a>
 
                 </li>
 
                 <li>
-                    <a href="">
-                        <span>Sobre</span>
+                    <a href="#sobre" class="menu-link">
+                        <span class="menu-texto">Sobre</span>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <span>Contato</span>
+                    <a href="#contato" class="menu-link">
+                        <span class="menu-texto">Contato</span>
                     </a>
                 </li>
             </ul>
@@ -56,13 +57,13 @@
         </nav>
 
         <!-- Icone Trocar Cor Tema -->
-        <div>
+        <div class="header-toggle">
 
             <!-- Icone Sol ou Lua -->
-            <i class="bi bi-cloud-sun"></i>
+            <i class="bi bi-cloud-sun" id="toggleTheme"> </i>
 
             <!-- Botao Hamburger -->
-            <button>
+            <button class="btn-menu-mobile" id="">
                 <i class="bi bi-list-check"></i>
             </button>
         </div>
