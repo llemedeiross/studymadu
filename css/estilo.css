@@ -21,8 +21,19 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-color: #f056aa;
+     background-color: #ec5dac;
      /* Largura ou Comprimento */
      width: 100%;
-
  }
+
+
+ /* UL sistema lista Topicos */
+ .menu {
+list-style: none;
+ }
+
+.menu {
+    list-style: none;
+     /* Lista horizental */
+    display: flex;
+}
